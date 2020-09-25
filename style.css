@@ -1,0 +1,18 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+}
+.todo{
+    border: 1px solid slategray;
+    border-radius: 5px;
+    padding: 0px 0px 12px 8px;
+    margin-top: 5px;
+    list-style: none;
+    color: gray;
+    font-style: italic;
+}
+.checked > h4{
+    text-decoration: line-through;
+}
